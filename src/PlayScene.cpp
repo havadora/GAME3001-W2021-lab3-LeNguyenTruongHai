@@ -66,9 +66,10 @@ void PlayScene::start()
 	m_buildGrid();
 
 	m_pTarget = new Target();
-	m_pTarget->getTransform()->position = glm::vec2(400.0f, 300.0f);
+	m_pTarget->getTransform()->position = glm::vec2(600.0f, 500.0f);
 	addChild(m_pTarget);
 	
+
 }
 
 void PlayScene::GUI_Function() 
